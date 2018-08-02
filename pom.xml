@@ -11,18 +11,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-    
-    <distributionManagement>
-        <repository>
-            <id>codingforcookies-nexus</id>
-            <url>http://repo.codingforcookies.com/content/repositories/releases/</url>
-        </repository>
-        <snapshotRepository>
-            <id>codingforcookies-nexus</id>
-            <url>http://repo.codingforcookies.com/content/repositories/snapshots/</url>
-        </snapshotRepository>
-    </distributionManagement>
-
+   
     <!-- Repositories -->
     <repositories>
         <!-- Spigot -->
@@ -30,14 +19,6 @@
             <id>spigot-repo</id>
             <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
         </repository>
-    	<repository>
-    		<id>codingforcookies-releases</id>
-    		<url>http://repo.codingforcookies.com/content/repositories/releases/</url>
-    	</repository>
-    	<repository>
-    		<id>codingforcookies-snapshots</id>
-    		<url>http://repo.codingforcookies.com/content/repositories/snapshots/</url>
-    	</repository>
     </repositories>
 
     <!-- Dependencies -->
@@ -46,7 +27,7 @@
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
-            <version>1.9-R0.1-SNAPSHOT</version>
+            <version>1.12-R0.1-SNAPSHOT</version>
             <type>jar</type>
         </dependency>
 
@@ -60,7 +41,7 @@
         <dependency>
             <groupId>com.dsh105</groupId>
             <artifactId>Commodus</artifactId>
-            <version>1.0.3-SNAPSHOT</version>
+            <version>1.0.4-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
